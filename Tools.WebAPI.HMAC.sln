@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.WebAPI.Security", "Security\Tools.WebAPI.Security.csproj", "{B5096170-E4E5-42C6-9420-167C689146B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.WebAPI.Security.Server", "Security.Server\Tools.WebAPI.Security.Server.csproj", "{E292B6BE-4473-451D-BC0F-F92F60EADA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.WebAPI.Security.UnitTests", "Security.UnitTests\Tools.WebAPI.Security.UnitTests.csproj", "{DE433E22-0450-4EDD-9AAC-341BFC02B22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5096170-E4E5-42C6-9420-167C689146B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5096170-E4E5-42C6-9420-167C689146B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5096170-E4E5-42C6-9420-167C689146B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5096170-E4E5-42C6-9420-167C689146B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E292B6BE-4473-451D-BC0F-F92F60EADA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E292B6BE-4473-451D-BC0F-F92F60EADA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E292B6BE-4473-451D-BC0F-F92F60EADA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E292B6BE-4473-451D-BC0F-F92F60EADA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE433E22-0450-4EDD-9AAC-341BFC02B22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE433E22-0450-4EDD-9AAC-341BFC02B22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE433E22-0450-4EDD-9AAC-341BFC02B22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE433E22-0450-4EDD-9AAC-341BFC02B22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
